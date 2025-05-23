@@ -1,10 +1,15 @@
-models:
-  - model: waelChafei/resume-summarization-finetuned-mistral-7b
-    parameters:
-      weight: 1.0
-  - model: Pennlaine/Mistral-7B-v02-Entity-Extraction
-    parameters:
-      weight: 1.0	
-merge_method: linear
-tokenizer_source: union
-dtype: float16
+models: 
+  - model: mistralai/Mistral-7B-Instruct-v0.2 
+    lora: 
+      path: waelChafei/resume-summarization-finetuned-mistral-7b 
+    parameters: 
+      weight: 1.0 
+ 
+  - model: mistralai/Mistral-7B-Instruct-v0.2 
+    lora: 
+      path: Pennlaine/Mistral-7B-v02-Entity-Extraction 
+    parameters: 
+      weight: 1.0 
+merge_method: linear 
+tokenizer_source: mistralai/Mistral-7B-Instruct-v0.2 
+dtype: float16  
