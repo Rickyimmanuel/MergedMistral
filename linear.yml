@@ -1,0 +1,10 @@
+models:
+  - model: waelChafei/resume-summarization-finetuned-mistral-7b
+    parameters:
+      weight: 1.0
+  - model: Pennlaine/Mistral-7B-v02-Entity-Extraction
+    parameters:
+      weight: 1.0	
+merge_method: linear
+tokenizer_source: union
+dtype: float16
