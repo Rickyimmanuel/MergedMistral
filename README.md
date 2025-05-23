@@ -26,8 +26,8 @@ This project includes:
 ## 🔐 Hugging Face Token Setup
 
 In order to **upload or download private models** from Hugging Face, you’ll need to insert your personal token:
-### from huggingface_hub import login 
-### login("your-hugging-face-access-token")
+##### from huggingface_hub import login 
+##### login("your-hugging-face-access-token")
 
 ## ✨ How to Use the Merged Model
 You can interact with the merged model in the terminal using prompts like:
