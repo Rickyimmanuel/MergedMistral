@@ -32,6 +32,6 @@ In order to **upload or download private models** from Hugging Face, you’ll ne
 ## ✨ How to Use the Merged Model
 You can interact with the merged model in the terminal using prompts like:
 
-Summarize: John has 5 years of experience in AI at Google and Tesla.
-Extract entities: Sarah worked at IBM in NLP and has an MS from Stanford.
-Summarize and extract entities: Michael worked at OpenAI and studied CS at MIT.
+#### Summarize: John has 5 years of experience in AI at Google and Tesla.
+#### Extract entities: Sarah worked at IBM in NLP and has an MS from Stanford.
+#### Summarize and extract entities: Michael worked at OpenAI and studied CS at MIT.
